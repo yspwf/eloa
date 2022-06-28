@@ -17,14 +17,12 @@ npm i eloa -S
 
 ```
 module.exports = (Router) =>{
-
     Router.get("/my", 'Home.index');
-    
 }
 
 ```
 
-3.启动
+4.启动
 ```
 const server = require('eloa');
 server.Init(port);
