@@ -11,7 +11,18 @@
 npm init 
 npm i eloa -S
 ```
-2.创建controller, server, model 三个模块
+2.创建controller, server, model, router 等个模块
+
+3.创建路由
+
+```
+module.exports = (Router) =>{
+
+    Router.get("/my", 'Home.index');
+    
+}
+
+```
 
 3.启动
 ```
